@@ -1,0 +1,1256 @@
+{
+  "diagramType": 2,
+  "data": {
+    "nodes": [
+      {
+        "id": "b2accb3a-a803-4a44-bcda-5c9ad93ae12f",
+        "type": "Table",
+        "position": {
+          "x": 593.0208228489022,
+          "y": 179.3536369978981
+        },
+        "data": {
+          "label": "Usuario",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "40ab0f6d-4255-4523-adfd-cfd9817c4ec7",
+              "name": "id_usuario",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": true,
+              "isOptional": false
+            },
+            {
+              "id": "cf70626b-6b69-4584-a691-df970d80ec3b",
+              "name": "nome",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": false
+            },
+            {
+              "id": "57681381-390d-48c8-ac32-004f27810a3c",
+              "name": "email",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": false
+            },
+            {
+              "id": "dfb07a22-b5c1-4ecd-9cb7-97d77a22e52e",
+              "name": "senha",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": false
+            },
+            {
+              "id": "841cc897-b9dd-4eea-995f-dc8f05243c4d",
+              "name": "is_admin",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": false
+            }
+          ],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 240,
+          "height": 150
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "69bf1ed0-0dda-45c1-8f28-7dac44b3a6be",
+        "type": "Table",
+        "position": {
+          "x": 291.28566117351,
+          "y": 426.506786384075
+        },
+        "data": {
+          "label": "Perfume",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "92dd84c7-ec86-4f95-a878-51927a80f479",
+              "name": "id_perfume",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": true,
+              "isOptional": false
+            },
+            {
+              "id": "9fb601ad-e541-442d-8c7a-4b76b2599b62",
+              "name": "nome",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": false
+            },
+            {
+              "id": "c51caeae-22bf-4f6f-8b00-0b718cb7a175",
+              "name": "marca",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": false
+            },
+            {
+              "id": "903e4bf9-6127-412f-9c22-a3d193314556",
+              "name": "descricao",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": false
+            },
+            {
+              "id": "7b996338-2b6b-467b-be5e-7d060a4c1acb",
+              "name": "fragrancia",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": false
+            },
+            {
+              "id": "5a9b925c-9041-4c6e-94a9-d38c4f0f7cdc",
+              "name": "like/deslike",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": false
+            },
+            {
+              "id": "07cdd9b1-4478-4b8b-b954-eaf1a3d6dd7d",
+              "name": "ano_lançamento",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": false
+            }
+          ],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 240,
+          "height": 200
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "f314650a-84bf-48a4-be5a-e91450144ed5",
+        "type": "Table",
+        "position": {
+          "x": 1188.7654856007152,
+          "y": 264.58728159235045
+        },
+        "data": {
+          "label": "Resenha",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "48d8cb83-b59f-4426-a187-461a82beaf5b",
+              "name": "id_resenha",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": true,
+              "isOptional": false
+            },
+            {
+              "id": "8257ee8e-4aef-477d-ab9b-9672c3dcd15c",
+              "name": "titulo",
+              "type": "INT",
+              "position": 1,
+              "isPrimaryKey": false
+            },
+            {
+              "id": "729312cb-7894-4b4b-89bb-aee57530813d",
+              "name": "texto",
+              "type": "INT",
+              "position": 2,
+              "isPrimaryKey": false
+            },
+            {
+              "id": "e8798ef2-0f3f-4b36-83c3-1315c7241ff1",
+              "name": "escala de emoções",
+              "type": "INT",
+              "position": 3,
+              "isPrimaryKey": false
+            },
+            {
+              "id": "0ac1af75-956b-4e42-b0fa-83b062a5af93",
+              "name": "like/deslike",
+              "type": "INT",
+              "position": 4,
+              "isPrimaryKey": false
+            },
+            {
+              "id": "4af7287b-04ad-44c9-865a-a52f232da597",
+              "name": "categorias(tags)",
+              "type": "INT",
+              "position": 5,
+              "isPrimaryKey": false
+            },
+            {
+              "id": "29332a90-4c65-41cc-b3eb-2afa18eb1f78",
+              "name": "data_hora",
+              "type": "INT",
+              "position": 6,
+              "isPrimaryKey": false
+            },
+            {
+              "id": "fk_6b374fca-e479-4ede-83e6-0dbe7b82b1ec",
+              "name": "fk_Usuario",
+              "type": "None",
+              "isForeignKey": true,
+              "foreignKeyProps": {
+                "foreignKeyGroupId": "f990ab76-1b05-46f2-998c-ff8986409789",
+                "sourceTableId": "b2accb3a-a803-4a44-bcda-5c9ad93ae12f",
+                "columns": [
+                  {
+                    "id": "fk_40ab0f6d-4255-4523-adfd-cfd9817c4ec7",
+                    "name": "id_usuario",
+                    "type": "INT"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fk_24a19d84-a8d4-4f96-a73b-0f469c3c2750",
+              "name": "fk_Perfume",
+              "type": "None",
+              "isForeignKey": true,
+              "foreignKeyProps": {
+                "foreignKeyGroupId": "6e9e6917-36fe-4d98-8873-5c92ffd67976",
+                "sourceTableId": "69bf1ed0-0dda-45c1-8f28-7dac44b3a6be",
+                "columns": [
+                  {
+                    "id": "fk_92dd84c7-ec86-4f95-a878-51927a80f479",
+                    "name": "id_perfume",
+                    "type": "INT"
+                  }
+                ]
+              }
+            }
+          ],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 240,
+          "height": 251
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "a5d2d4f0-eb83-4d6f-a2e6-37d7ae282723",
+        "type": "Table",
+        "position": {
+          "x": 289.3648840347071,
+          "y": -29.859786929915067
+        },
+        "data": {
+          "label": "Artigo",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "e0cd7250-298c-46a1-ae11-bd4d28482e14",
+              "name": "id_artigo",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": true,
+              "isOptional": false
+            },
+            {
+              "id": "b5693d68-56bd-40de-90e6-38cf3e848d07",
+              "name": "titulo",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": false
+            },
+            {
+              "id": "4adebafd-dc6f-4868-afdd-9cfd45f2ac14",
+              "name": "texto",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": false
+            },
+            {
+              "id": "03f2070d-a01a-4e72-9d65-d85893dcbe4c",
+              "name": "data_hora",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": false
+            },
+            {
+              "id": "fk_07f8a77e-8ef1-4a80-84cf-8a01b1bb1653",
+              "name": "fk_Usuario",
+              "type": "None",
+              "isForeignKey": true,
+              "foreignKeyProps": {
+                "foreignKeyGroupId": "e2e0302b-edd6-4294-bd52-0308226854bb",
+                "sourceTableId": "b2accb3a-a803-4a44-bcda-5c9ad93ae12f",
+                "columns": [
+                  {
+                    "id": "fk_40ab0f6d-4255-4523-adfd-cfd9817c4ec7",
+                    "name": "id_usuario",
+                    "type": "INT"
+                  }
+                ]
+              }
+            }
+          ],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 240,
+          "height": 151
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "bcaed112-a2c8-4bae-85b6-18316f9e9a12",
+        "type": "Table",
+        "position": {
+          "x": -31.93126342625891,
+          "y": 137.26757729594092
+        },
+        "data": {
+          "label": "Lista",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "864a0720-73c7-427f-92b2-6da3d5cd12cf",
+              "name": "id_lista",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": true,
+              "isOptional": false
+            },
+            {
+              "id": "a1c35cf5-9b69-444f-9372-ab2038e12d45",
+              "name": "titulo",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": false
+            },
+            {
+              "id": "59066853-da95-4870-82bf-70ac8e082de9",
+              "name": "descricao",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": false
+            },
+            {
+              "id": "fk_901a7930-adf2-4592-af34-505a6eeeccae",
+              "name": "fk_Usuario",
+              "type": "None",
+              "isForeignKey": true,
+              "foreignKeyProps": {
+                "foreignKeyGroupId": "f2657746-b73f-4f9a-9b41-7905630ab435",
+                "sourceTableId": "b2accb3a-a803-4a44-bcda-5c9ad93ae12f",
+                "columns": [
+                  {
+                    "id": "fk_40ab0f6d-4255-4523-adfd-cfd9817c4ec7",
+                    "name": "id_usuario",
+                    "type": "INT"
+                  }
+                ]
+              }
+            }
+          ],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 240,
+          "height": 126
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "654a0b62-4d1a-4636-b233-0f9be4acba05",
+        "type": "Table",
+        "position": {
+          "x": -37.6408950405075,
+          "y": 436.91948179482745
+        },
+        "data": {
+          "label": "ListaPerfume",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "d6677254-d8b6-4af7-97ab-bc693cdbcb67",
+              "name": "id_listaPerfume",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": true,
+              "isOptional": false
+            },
+            {
+              "id": "fk_4dda18d2-177d-46eb-8e6f-f96b6508d32c",
+              "name": "fk_Perfume",
+              "type": "None",
+              "isForeignKey": true,
+              "foreignKeyProps": {
+                "foreignKeyGroupId": "41287c22-ecfd-4baf-8db3-036aaab59a0e",
+                "sourceTableId": "69bf1ed0-0dda-45c1-8f28-7dac44b3a6be",
+                "columns": [
+                  {
+                    "id": "fk_92dd84c7-ec86-4f95-a878-51927a80f479",
+                    "name": "id_perfume",
+                    "type": "INT"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fk_2099f66c-805f-4f56-a61d-f008e13a90cf",
+              "name": "fk_Lista",
+              "type": "None",
+              "isForeignKey": true,
+              "foreignKeyProps": {
+                "foreignKeyGroupId": "22c7da31-75a9-47ef-adda-8cb05508f242",
+                "sourceTableId": "bcaed112-a2c8-4bae-85b6-18316f9e9a12",
+                "columns": [
+                  {
+                    "id": "fk_864a0720-73c7-427f-92b2-6da3d5cd12cf",
+                    "name": "id_lista",
+                    "type": "INT"
+                  }
+                ]
+              }
+            }
+          ],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 240,
+          "height": 101
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "85e52ff0-bc9f-42bc-b551-b0988d4b034f",
+        "type": "Table",
+        "position": {
+          "x": 291.28946369048134,
+          "y": 300.8818580799491
+        },
+        "data": {
+          "label": "Cadastra",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "fk_0536441f-ed24-4bd0-908f-54abc550c884",
+              "name": "fk_Usuario",
+              "type": "None",
+              "isForeignKey": true,
+              "foreignKeyProps": {
+                "foreignKeyGroupId": "aa59856f-5313-456d-b9dc-8e17dda80884",
+                "sourceTableId": "b2accb3a-a803-4a44-bcda-5c9ad93ae12f",
+                "columns": [
+                  {
+                    "id": "fk_40ab0f6d-4255-4523-adfd-cfd9817c4ec7",
+                    "name": "id_usuario",
+                    "type": "INT"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fk_8207e0c0-c746-4fb4-9cde-3b5779569afc",
+              "name": "fk_Perfume",
+              "type": "None",
+              "isForeignKey": true,
+              "foreignKeyProps": {
+                "foreignKeyGroupId": "1a4d9e44-3556-41f4-93d3-784a8d60ffb4",
+                "sourceTableId": "69bf1ed0-0dda-45c1-8f28-7dac44b3a6be",
+                "columns": [
+                  {
+                    "id": "fk_92dd84c7-ec86-4f95-a878-51927a80f479",
+                    "name": "id_perfume",
+                    "type": "INT"
+                  }
+                ]
+              }
+            }
+          ],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 240,
+          "height": 77
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "66943284-d008-4fc7-bbaf-a167a8d66e17",
+        "type": "Table",
+        "position": {
+          "x": 592.9350119858899,
+          "y": 582.4254841158818
+        },
+        "data": {
+          "label": "PerfumeCategoria",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "fk_3a0ed062-5ec4-449e-9202-71c69b0f2bdf",
+              "name": "fk_Categoria(tags)",
+              "type": "None",
+              "isForeignKey": true,
+              "foreignKeyProps": {
+                "foreignKeyGroupId": "9c6d73f8-a6cc-4ec0-82dc-6ad413d3289b",
+                "sourceTableId": "f53935b7-4f9e-4786-87c4-0d8bd2f4b884",
+                "columns": [
+                  {
+                    "id": "fk_0dc40e4c-52b9-4388-946b-b19179b80a46",
+                    "name": "id_categoria",
+                    "type": "INT"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fk_07cdfb26-51d9-40c4-af6c-b42bd3cf7c62",
+              "name": "fk_Perfume",
+              "type": "None",
+              "isForeignKey": true,
+              "foreignKeyProps": {
+                "foreignKeyGroupId": "16c95a12-42df-4a06-b45a-353a87a4a0e1",
+                "sourceTableId": "69bf1ed0-0dda-45c1-8f28-7dac44b3a6be",
+                "columns": [
+                  {
+                    "id": "fk_92dd84c7-ec86-4f95-a878-51927a80f479",
+                    "name": "id_perfume",
+                    "type": "INT"
+                  }
+                ]
+              }
+            }
+          ],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 240,
+          "height": 77
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "f53935b7-4f9e-4786-87c4-0d8bd2f4b884",
+        "type": "Table",
+        "position": {
+          "x": 892.7623130104917,
+          "y": 676.9878848820781
+        },
+        "data": {
+          "label": "Categoria(tags)",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "0dc40e4c-52b9-4388-946b-b19179b80a46",
+              "name": "id_categoria",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": true,
+              "isOptional": false
+            },
+            {
+              "id": "0644e52d-cb14-4ace-8083-cb548ac139fb",
+              "name": "nome",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": false
+            }
+          ],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 240,
+          "height": 76
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "6ae11545-53e1-433b-a85f-2d004d64c6ef",
+        "type": "Table",
+        "position": {
+          "x": 1187.9910237389395,
+          "y": 563.5381117136874
+        },
+        "data": {
+          "label": "ResenhaCategoria",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "fk_eadc0403-3c8b-4deb-b2b4-920e43217ca5",
+              "name": "fk_Resenha",
+              "type": "None",
+              "isForeignKey": true,
+              "foreignKeyProps": {
+                "foreignKeyGroupId": "b0229417-4ab7-497a-9d34-2efe543c0f0a",
+                "sourceTableId": "f314650a-84bf-48a4-be5a-e91450144ed5",
+                "columns": [
+                  {
+                    "id": "fk_48d8cb83-b59f-4426-a187-461a82beaf5b",
+                    "name": "id_resenha",
+                    "type": "INT"
+                  }
+                ]
+              },
+              "position": 0
+            },
+            {
+              "id": "fk_b7074a85-9799-4a85-874b-e87d9b4acb3f",
+              "name": "fk_Categoria(tags)",
+              "type": "None",
+              "isForeignKey": true,
+              "foreignKeyProps": {
+                "foreignKeyGroupId": "f51d9379-cc42-4d2c-b8d8-ee10f723e875",
+                "sourceTableId": "f53935b7-4f9e-4786-87c4-0d8bd2f4b884",
+                "columns": [
+                  {
+                    "id": "fk_0dc40e4c-52b9-4388-946b-b19179b80a46",
+                    "name": "id_categoria",
+                    "type": "INT"
+                  }
+                ]
+              },
+              "position": 1
+            }
+          ],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 240,
+          "height": 77
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "9c6d70bd-824b-4a8a-bb34-79fabaa521ef",
+        "type": "Table",
+        "position": {
+          "x": 882.8551026095556,
+          "y": -114.23955029569099
+        },
+        "data": {
+          "label": "ComentarioArtigo",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "86bc20d5-9455-430b-85d5-7c36d465d188",
+              "name": "id_comentarioArt",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": true,
+              "isOptional": false
+            },
+            {
+              "id": "29bf7cd7-3715-4ba4-b7ab-94956d6a7fd6",
+              "name": "titulo",
+              "type": "INT",
+              "position": 0
+            },
+            {
+              "id": "8aaf91f9-c43f-42fe-8c02-921a9216efae",
+              "name": "texto",
+              "type": "INT",
+              "position": 0
+            },
+            {
+              "id": "c1d54bab-6ba8-4adb-a4ef-951044ba5898",
+              "name": "data_hora",
+              "type": "INT",
+              "position": 0
+            },
+            {
+              "id": "fk_1515edb6-82fb-462a-a9cb-eb630bd5881c",
+              "name": "fk_Artigo",
+              "type": "None",
+              "isForeignKey": true,
+              "foreignKeyProps": {
+                "foreignKeyGroupId": "73748bb6-7084-4571-a7f0-e97796f1dc94",
+                "sourceTableId": "a5d2d4f0-eb83-4d6f-a2e6-37d7ae282723",
+                "columns": [
+                  {
+                    "id": "fk_e0cd7250-298c-46a1-ae11-bd4d28482e14",
+                    "name": "id_artigo",
+                    "type": "INT"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fk_beb8f286-2131-4f1d-ae6c-122739b7b220",
+              "name": "fk_Usuario",
+              "type": "None",
+              "isForeignKey": true,
+              "foreignKeyProps": {
+                "foreignKeyGroupId": "110e1450-e968-41a1-b5ac-d162f58b19b9",
+                "sourceTableId": "b2accb3a-a803-4a44-bcda-5c9ad93ae12f",
+                "columns": [
+                  {
+                    "id": "fk_40ab0f6d-4255-4523-adfd-cfd9817c4ec7",
+                    "name": "id_usuario",
+                    "type": "INT"
+                  }
+                ]
+              }
+            }
+          ],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 240,
+          "height": 176
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "8e4dff8e-a5f5-4a6a-946a-69b7e0d813ee",
+        "type": "Table",
+        "position": {
+          "x": 1185.4564876646302,
+          "y": 79.27471626979703
+        },
+        "data": {
+          "label": "ComentarioResenha",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "de417100-f7cc-4663-a987-7b1b23b5ebfc",
+              "name": "id_comentarioResenha",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": true,
+              "isOptional": false
+            },
+            {
+              "id": "0fdc5914-5b5d-48ce-b687-27cdd46e2d96",
+              "name": "titulo",
+              "type": "INT",
+              "position": 0
+            },
+            {
+              "id": "4c99d2d8-f39c-4104-bd56-4d4fe13d5a2b",
+              "name": "texto",
+              "type": "INT",
+              "position": 0
+            },
+            {
+              "id": "95425f47-4814-4f63-a046-201f25a3f1ef",
+              "name": "data_hora",
+              "type": "INT",
+              "position": 0
+            },
+            {
+              "id": "fk_0b7d0419-6b11-4cbf-8dfd-47c5e53c9419",
+              "name": "fk_Resenha",
+              "type": "None",
+              "isForeignKey": true,
+              "foreignKeyProps": {
+                "foreignKeyGroupId": "1d8c2e2d-7f33-41a3-8de3-b21b479a7be6",
+                "sourceTableId": "f314650a-84bf-48a4-be5a-e91450144ed5",
+                "columns": [
+                  {
+                    "id": "fk_48d8cb83-b59f-4426-a187-461a82beaf5b",
+                    "name": "id_resenha",
+                    "type": "INT"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "fk_86ef50b7-d31f-434e-aceb-2acdf8d15803",
+              "name": "fk_Usuario",
+              "type": "None",
+              "isForeignKey": true,
+              "foreignKeyProps": {
+                "foreignKeyGroupId": "01689476-c626-4fc3-bbd1-b437f44d1d4e",
+                "sourceTableId": "b2accb3a-a803-4a44-bcda-5c9ad93ae12f",
+                "columns": [
+                  {
+                    "id": "fk_40ab0f6d-4255-4523-adfd-cfd9817c4ec7",
+                    "name": "id_usuario",
+                    "type": "INT"
+                  }
+                ]
+              }
+            }
+          ],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 240,
+          "height": 176
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "4a043dbf-8595-49b6-864f-68f4599bc1da",
+        "type": "Table",
+        "position": {
+          "x": -11.862066990055695,
+          "y": 642.4911043981151
+        },
+        "data": {
+          "label": "NotaAromatica",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "cca3e626-3208-4cde-886a-e9209ec766b8",
+              "name": "id_notaAromatica",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": true,
+              "isOptional": false
+            },
+            {
+              "id": "757c6b53-1241-4ede-9437-0641f49f34d4",
+              "name": "nome",
+              "type": "INT",
+              "position": 0,
+              "isPrimaryKey": false
+            },
+            {
+              "id": "fk_eefd3eb4-a271-46ce-a7dd-0fa707bfc3e1",
+              "name": "fk_Perfume",
+              "type": "None",
+              "isForeignKey": true,
+              "foreignKeyProps": {
+                "foreignKeyGroupId": "38ba437f-d616-4070-b229-17dd7562c66f",
+                "sourceTableId": "69bf1ed0-0dda-45c1-8f28-7dac44b3a6be",
+                "columns": [
+                  {
+                    "id": "fk_92dd84c7-ec86-4f95-a878-51927a80f479",
+                    "name": "id_perfume",
+                    "type": "INT"
+                  }
+                ]
+              },
+              "isPrimaryKey": false
+            }
+          ],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 240,
+          "height": 101
+        },
+        "selected": false,
+        "dragging": false
+      }
+    ],
+    "edges": [
+      {
+        "id": "f53935b7-4f9e-4786-87c4-0d8bd2f4b884->66943284-d008-4fc7-bbaf-a167a8d66e17_9c6d73f8-a6cc-4ec0-82dc-6ad413d3289b",
+        "type": "Relational",
+        "source": "f53935b7-4f9e-4786-87c4-0d8bd2f4b884",
+        "targetHandle": "foreign-key-handle-9c6d73f8-a6cc-4ec0-82dc-6ad413d3289b",
+        "target": "66943284-d008-4fc7-bbaf-a167a8d66e17",
+        "markerStart": {
+          "type": "arrow"
+        },
+        "data": {
+          "foreignKeyProps": {
+            "foreignKeyGroupId": "9c6d73f8-a6cc-4ec0-82dc-6ad413d3289b",
+            "sourceTableId": "f53935b7-4f9e-4786-87c4-0d8bd2f4b884",
+            "columns": [
+              {
+                "id": "fk_0dc40e4c-52b9-4388-946b-b19179b80a46",
+                "name": "id_categoria",
+                "type": "INT"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "69bf1ed0-0dda-45c1-8f28-7dac44b3a6be->66943284-d008-4fc7-bbaf-a167a8d66e17_16c95a12-42df-4a06-b45a-353a87a4a0e1",
+        "type": "Relational",
+        "source": "69bf1ed0-0dda-45c1-8f28-7dac44b3a6be",
+        "targetHandle": "foreign-key-handle-16c95a12-42df-4a06-b45a-353a87a4a0e1",
+        "target": "66943284-d008-4fc7-bbaf-a167a8d66e17",
+        "markerStart": {
+          "type": "arrow"
+        },
+        "data": {
+          "foreignKeyProps": {
+            "foreignKeyGroupId": "16c95a12-42df-4a06-b45a-353a87a4a0e1",
+            "sourceTableId": "69bf1ed0-0dda-45c1-8f28-7dac44b3a6be",
+            "columns": [
+              {
+                "id": "fk_92dd84c7-ec86-4f95-a878-51927a80f479",
+                "name": "id_perfume",
+                "type": "INT"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "f53935b7-4f9e-4786-87c4-0d8bd2f4b884->6ae11545-53e1-433b-a85f-2d004d64c6ef_f51d9379-cc42-4d2c-b8d8-ee10f723e875",
+        "type": "Relational",
+        "source": "f53935b7-4f9e-4786-87c4-0d8bd2f4b884",
+        "targetHandle": "foreign-key-handle-f51d9379-cc42-4d2c-b8d8-ee10f723e875",
+        "target": "6ae11545-53e1-433b-a85f-2d004d64c6ef",
+        "markerStart": {
+          "type": "arrow"
+        },
+        "data": {
+          "foreignKeyProps": {
+            "foreignKeyGroupId": "f51d9379-cc42-4d2c-b8d8-ee10f723e875",
+            "sourceTableId": "f53935b7-4f9e-4786-87c4-0d8bd2f4b884",
+            "columns": [
+              {
+                "id": "fk_0dc40e4c-52b9-4388-946b-b19179b80a46",
+                "name": "id_categoria",
+                "type": "INT"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "f314650a-84bf-48a4-be5a-e91450144ed5->6ae11545-53e1-433b-a85f-2d004d64c6ef_b0229417-4ab7-497a-9d34-2efe543c0f0a",
+        "type": "Relational",
+        "source": "f314650a-84bf-48a4-be5a-e91450144ed5",
+        "targetHandle": "foreign-key-handle-b0229417-4ab7-497a-9d34-2efe543c0f0a",
+        "target": "6ae11545-53e1-433b-a85f-2d004d64c6ef",
+        "markerStart": {
+          "type": "arrow"
+        },
+        "data": {
+          "foreignKeyProps": {
+            "foreignKeyGroupId": "b0229417-4ab7-497a-9d34-2efe543c0f0a",
+            "sourceTableId": "f314650a-84bf-48a4-be5a-e91450144ed5",
+            "columns": [
+              {
+                "id": "fk_48d8cb83-b59f-4426-a187-461a82beaf5b",
+                "name": "id_resenha",
+                "type": "INT"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "f314650a-84bf-48a4-be5a-e91450144ed5->8e4dff8e-a5f5-4a6a-946a-69b7e0d813ee_1d8c2e2d-7f33-41a3-8de3-b21b479a7be6",
+        "type": "Relational",
+        "source": "f314650a-84bf-48a4-be5a-e91450144ed5",
+        "targetHandle": "foreign-key-handle-1d8c2e2d-7f33-41a3-8de3-b21b479a7be6",
+        "target": "8e4dff8e-a5f5-4a6a-946a-69b7e0d813ee",
+        "markerStart": {
+          "type": "arrow"
+        },
+        "data": {
+          "foreignKeyProps": {
+            "foreignKeyGroupId": "1d8c2e2d-7f33-41a3-8de3-b21b479a7be6",
+            "sourceTableId": "f314650a-84bf-48a4-be5a-e91450144ed5",
+            "columns": [
+              {
+                "id": "fk_48d8cb83-b59f-4426-a187-461a82beaf5b",
+                "name": "id_resenha",
+                "type": "INT"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "b2accb3a-a803-4a44-bcda-5c9ad93ae12f->85e52ff0-bc9f-42bc-b551-b0988d4b034f_aa59856f-5313-456d-b9dc-8e17dda80884",
+        "type": "Relational",
+        "source": "b2accb3a-a803-4a44-bcda-5c9ad93ae12f",
+        "targetHandle": "foreign-key-handle-aa59856f-5313-456d-b9dc-8e17dda80884",
+        "target": "85e52ff0-bc9f-42bc-b551-b0988d4b034f",
+        "markerStart": {
+          "type": "arrow"
+        },
+        "data": {
+          "foreignKeyProps": {
+            "foreignKeyGroupId": "aa59856f-5313-456d-b9dc-8e17dda80884",
+            "sourceTableId": "b2accb3a-a803-4a44-bcda-5c9ad93ae12f",
+            "columns": [
+              {
+                "id": "fk_40ab0f6d-4255-4523-adfd-cfd9817c4ec7",
+                "name": "id_usuario",
+                "type": "INT"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "69bf1ed0-0dda-45c1-8f28-7dac44b3a6be->85e52ff0-bc9f-42bc-b551-b0988d4b034f_1a4d9e44-3556-41f4-93d3-784a8d60ffb4",
+        "type": "Relational",
+        "source": "69bf1ed0-0dda-45c1-8f28-7dac44b3a6be",
+        "targetHandle": "foreign-key-handle-1a4d9e44-3556-41f4-93d3-784a8d60ffb4",
+        "target": "85e52ff0-bc9f-42bc-b551-b0988d4b034f",
+        "markerStart": {
+          "type": "arrow"
+        },
+        "data": {
+          "foreignKeyProps": {
+            "foreignKeyGroupId": "1a4d9e44-3556-41f4-93d3-784a8d60ffb4",
+            "sourceTableId": "69bf1ed0-0dda-45c1-8f28-7dac44b3a6be",
+            "columns": [
+              {
+                "id": "fk_92dd84c7-ec86-4f95-a878-51927a80f479",
+                "name": "id_perfume",
+                "type": "INT"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "a5d2d4f0-eb83-4d6f-a2e6-37d7ae282723->9c6d70bd-824b-4a8a-bb34-79fabaa521ef_73748bb6-7084-4571-a7f0-e97796f1dc94",
+        "type": "Relational",
+        "source": "a5d2d4f0-eb83-4d6f-a2e6-37d7ae282723",
+        "targetHandle": "foreign-key-handle-73748bb6-7084-4571-a7f0-e97796f1dc94",
+        "target": "9c6d70bd-824b-4a8a-bb34-79fabaa521ef",
+        "markerStart": {
+          "type": "arrow"
+        },
+        "data": {
+          "foreignKeyProps": {
+            "foreignKeyGroupId": "73748bb6-7084-4571-a7f0-e97796f1dc94",
+            "sourceTableId": "a5d2d4f0-eb83-4d6f-a2e6-37d7ae282723",
+            "columns": [
+              {
+                "id": "fk_e0cd7250-298c-46a1-ae11-bd4d28482e14",
+                "name": "id_artigo",
+                "type": "INT"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "b2accb3a-a803-4a44-bcda-5c9ad93ae12f->a5d2d4f0-eb83-4d6f-a2e6-37d7ae282723_e2e0302b-edd6-4294-bd52-0308226854bb",
+        "type": "Relational",
+        "source": "b2accb3a-a803-4a44-bcda-5c9ad93ae12f",
+        "targetHandle": "foreign-key-handle-e2e0302b-edd6-4294-bd52-0308226854bb",
+        "target": "a5d2d4f0-eb83-4d6f-a2e6-37d7ae282723",
+        "markerStart": {
+          "type": "arrow"
+        },
+        "data": {
+          "foreignKeyProps": {
+            "foreignKeyGroupId": "e2e0302b-edd6-4294-bd52-0308226854bb",
+            "sourceTableId": "b2accb3a-a803-4a44-bcda-5c9ad93ae12f",
+            "columns": [
+              {
+                "id": "fk_40ab0f6d-4255-4523-adfd-cfd9817c4ec7",
+                "name": "id_usuario",
+                "type": "INT"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "b2accb3a-a803-4a44-bcda-5c9ad93ae12f->f314650a-84bf-48a4-be5a-e91450144ed5_f990ab76-1b05-46f2-998c-ff8986409789",
+        "type": "Relational",
+        "source": "b2accb3a-a803-4a44-bcda-5c9ad93ae12f",
+        "targetHandle": "foreign-key-handle-f990ab76-1b05-46f2-998c-ff8986409789",
+        "target": "f314650a-84bf-48a4-be5a-e91450144ed5",
+        "markerStart": {
+          "type": "arrow"
+        },
+        "data": {
+          "foreignKeyProps": {
+            "foreignKeyGroupId": "f990ab76-1b05-46f2-998c-ff8986409789",
+            "sourceTableId": "b2accb3a-a803-4a44-bcda-5c9ad93ae12f",
+            "columns": [
+              {
+                "id": "fk_40ab0f6d-4255-4523-adfd-cfd9817c4ec7",
+                "name": "id_usuario",
+                "type": "INT"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "69bf1ed0-0dda-45c1-8f28-7dac44b3a6be->654a0b62-4d1a-4636-b233-0f9be4acba05_41287c22-ecfd-4baf-8db3-036aaab59a0e",
+        "type": "Relational",
+        "source": "69bf1ed0-0dda-45c1-8f28-7dac44b3a6be",
+        "targetHandle": "foreign-key-handle-41287c22-ecfd-4baf-8db3-036aaab59a0e",
+        "target": "654a0b62-4d1a-4636-b233-0f9be4acba05",
+        "markerStart": {
+          "type": "arrow"
+        },
+        "data": {
+          "foreignKeyProps": {
+            "foreignKeyGroupId": "41287c22-ecfd-4baf-8db3-036aaab59a0e",
+            "sourceTableId": "69bf1ed0-0dda-45c1-8f28-7dac44b3a6be",
+            "columns": [
+              {
+                "id": "fk_92dd84c7-ec86-4f95-a878-51927a80f479",
+                "name": "id_perfume",
+                "type": "INT"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "bcaed112-a2c8-4bae-85b6-18316f9e9a12->654a0b62-4d1a-4636-b233-0f9be4acba05_22c7da31-75a9-47ef-adda-8cb05508f242",
+        "type": "Relational",
+        "source": "bcaed112-a2c8-4bae-85b6-18316f9e9a12",
+        "targetHandle": "foreign-key-handle-22c7da31-75a9-47ef-adda-8cb05508f242",
+        "target": "654a0b62-4d1a-4636-b233-0f9be4acba05",
+        "markerStart": {
+          "type": "arrow"
+        },
+        "data": {
+          "foreignKeyProps": {
+            "foreignKeyGroupId": "22c7da31-75a9-47ef-adda-8cb05508f242",
+            "sourceTableId": "bcaed112-a2c8-4bae-85b6-18316f9e9a12",
+            "columns": [
+              {
+                "id": "fk_864a0720-73c7-427f-92b2-6da3d5cd12cf",
+                "name": "id_lista",
+                "type": "INT"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "b2accb3a-a803-4a44-bcda-5c9ad93ae12f->bcaed112-a2c8-4bae-85b6-18316f9e9a12_f2657746-b73f-4f9a-9b41-7905630ab435",
+        "type": "Relational",
+        "source": "b2accb3a-a803-4a44-bcda-5c9ad93ae12f",
+        "targetHandle": "foreign-key-handle-f2657746-b73f-4f9a-9b41-7905630ab435",
+        "target": "bcaed112-a2c8-4bae-85b6-18316f9e9a12",
+        "markerStart": {
+          "type": "arrow"
+        },
+        "data": {
+          "foreignKeyProps": {
+            "foreignKeyGroupId": "f2657746-b73f-4f9a-9b41-7905630ab435",
+            "sourceTableId": "b2accb3a-a803-4a44-bcda-5c9ad93ae12f",
+            "columns": [
+              {
+                "id": "fk_40ab0f6d-4255-4523-adfd-cfd9817c4ec7",
+                "name": "id_usuario",
+                "type": "INT"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "69bf1ed0-0dda-45c1-8f28-7dac44b3a6be->4a043dbf-8595-49b6-864f-68f4599bc1da_38ba437f-d616-4070-b229-17dd7562c66f",
+        "type": "Relational",
+        "source": "69bf1ed0-0dda-45c1-8f28-7dac44b3a6be",
+        "targetHandle": "foreign-key-handle-38ba437f-d616-4070-b229-17dd7562c66f",
+        "target": "4a043dbf-8595-49b6-864f-68f4599bc1da",
+        "markerStart": {
+          "type": "arrow"
+        },
+        "data": {
+          "foreignKeyProps": {
+            "foreignKeyGroupId": "38ba437f-d616-4070-b229-17dd7562c66f",
+            "sourceTableId": "69bf1ed0-0dda-45c1-8f28-7dac44b3a6be",
+            "columns": [
+              {
+                "id": "fk_92dd84c7-ec86-4f95-a878-51927a80f479",
+                "name": "id_perfume",
+                "type": "INT"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "69bf1ed0-0dda-45c1-8f28-7dac44b3a6be->f314650a-84bf-48a4-be5a-e91450144ed5_6e9e6917-36fe-4d98-8873-5c92ffd67976",
+        "type": "Relational",
+        "source": "69bf1ed0-0dda-45c1-8f28-7dac44b3a6be",
+        "targetHandle": "foreign-key-handle-6e9e6917-36fe-4d98-8873-5c92ffd67976",
+        "target": "f314650a-84bf-48a4-be5a-e91450144ed5",
+        "markerStart": {
+          "type": "arrow"
+        },
+        "data": {
+          "foreignKeyProps": {
+            "foreignKeyGroupId": "6e9e6917-36fe-4d98-8873-5c92ffd67976",
+            "sourceTableId": "69bf1ed0-0dda-45c1-8f28-7dac44b3a6be",
+            "columns": [
+              {
+                "id": "fk_92dd84c7-ec86-4f95-a878-51927a80f479",
+                "name": "id_perfume",
+                "type": "INT"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "b2accb3a-a803-4a44-bcda-5c9ad93ae12f->8e4dff8e-a5f5-4a6a-946a-69b7e0d813ee_01689476-c626-4fc3-bbd1-b437f44d1d4e",
+        "type": "Relational",
+        "source": "b2accb3a-a803-4a44-bcda-5c9ad93ae12f",
+        "targetHandle": "foreign-key-handle-01689476-c626-4fc3-bbd1-b437f44d1d4e",
+        "target": "8e4dff8e-a5f5-4a6a-946a-69b7e0d813ee",
+        "markerStart": {
+          "type": "arrow"
+        },
+        "data": {
+          "foreignKeyProps": {
+            "foreignKeyGroupId": "01689476-c626-4fc3-bbd1-b437f44d1d4e",
+            "sourceTableId": "b2accb3a-a803-4a44-bcda-5c9ad93ae12f",
+            "columns": [
+              {
+                "id": "fk_40ab0f6d-4255-4523-adfd-cfd9817c4ec7",
+                "name": "id_usuario",
+                "type": "INT"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "b2accb3a-a803-4a44-bcda-5c9ad93ae12f->9c6d70bd-824b-4a8a-bb34-79fabaa521ef_110e1450-e968-41a1-b5ac-d162f58b19b9",
+        "type": "Relational",
+        "source": "b2accb3a-a803-4a44-bcda-5c9ad93ae12f",
+        "targetHandle": "foreign-key-handle-110e1450-e968-41a1-b5ac-d162f58b19b9",
+        "target": "9c6d70bd-824b-4a8a-bb34-79fabaa521ef",
+        "markerStart": {
+          "type": "arrow"
+        },
+        "data": {
+          "foreignKeyProps": {
+            "foreignKeyGroupId": "110e1450-e968-41a1-b5ac-d162f58b19b9",
+            "sourceTableId": "b2accb3a-a803-4a44-bcda-5c9ad93ae12f",
+            "columns": [
+              {
+                "id": "fk_40ab0f6d-4255-4523-adfd-cfd9817c4ec7",
+                "name": "id_usuario",
+                "type": "INT"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "viewport": {
+      "x": 488.78003471453144,
+      "y": 109.66758739541734,
+      "zoom": 0.5958622678457061
+    }
+  },
+  "name": "Modelo Relacional D",
+  "folder": {
+    "name": "Diagrams",
+    "folderType": 1,
+    "depth": 0,
+    "id": 96867
+  },
+  "id": 132084,
+  "updatedAtTimestamp": 1761690921
+}
